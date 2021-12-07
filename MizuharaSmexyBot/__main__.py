@@ -72,16 +72,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-https://telegra.ph/file/923ca8d23025ee79ec78a.jpg
-Hello, I'M MIZUHARA
+https://telegra.ph/file/79b83c9bc2617ca28ec4f.jpg
+Hello, I'M *ALL MIGHT*
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help
-Maintained by @PAIN_TO_this_woorld 🖤
+Maintained by @sungjinwooarc 🖤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MizuharaSmexyBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/All_Might_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Mizuhara_"),
@@ -90,9 +90,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/project_tsukiyomi_started"),
+        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/binchzars"),
         InlineKeyboardButton(
-            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/https://t.me/project_tsukiyomi_started/410"
+            text="DEV", url=f"https://t.me/sungjinwooarc"
         ),
     ],
     [
@@ -102,16 +102,16 @@ buttons = [
 
 
 HELP_STRINGS = """
-``https://telegra.ph/file/923ca8d23025ee79ec78a.jpg`
+``https://telegra.ph/file/cc78ec199484042600f67.jpg`
 `Hi.. I'M` Mizuhara
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Akatsuki](t.me/project_tsukinomi)"""
+Powered by :- [Sungjinwooarc](t.me/Sungjinwooarc)"""
 
-layla_IMG = "https://telegra.ph/file/923ca8d23025ee79ec78a.jpg"
+layla_IMG = "https://telegra.ph/file/79b83c9bc2617ca28ec4f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Pain](t.me/Pain_to_this_world) \
- Supporting isnt always financial! [Akatsuki](t.me/project_tsukinomi) \
+ You can support the project [Sungjinwoo](t.me/Sungjinwooarc) \
+ Supporting isnt always financial! [Support](https://t.me/testsupportz) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
