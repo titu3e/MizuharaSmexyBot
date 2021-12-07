@@ -41,7 +41,7 @@ async def song(client, message):
 from pyrogram import filters
 from LaylaRobot import pbot as Layla
 
-ARQ = "https://thearq.tech/"
+ARQ = "https://grambuilders.tech"
 
 async def fetch(url):
     async with aiohttp.ClientSession() as session:
@@ -94,7 +94,7 @@ import aiofiles
 import aiohttp
 from pyrogram import filters
 
-ARQ = "https://thearq.tech/"
+ARQ = "https://grambuilders.tech"
 
 async def fetch(url):
     async with aiohttp.ClientSession() as session:
