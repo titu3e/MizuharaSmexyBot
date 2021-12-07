@@ -357,7 +357,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "Mizuhara_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Mizuhara*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ALL MIGHT*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -365,11 +365,11 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Mizuhara's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @project_tsukiyomi_started
-                 \n❍ Support Group @project_tsukinomi
-                 \n❍ Assistant @Miku_plays.
-                 \n❍ Im Private group Manager bot for the groups of @pain_to_this_world so don't add me withouts his permission
-                 \n\nIf you have any question about Mizuhara, let us know at @project_tsukinomi .""",
+                 \n❍ Awesome Bots @testsupportz
+                 \n❍ Support Group @testsupportz
+                 \n❍ Assistant @Sungjinwooarcreal.
+                 \n❍ Im Public group Manager bot for the groups of @Sungjinwooarc so add me without any rules
+                 \n\nIf you have any question about ALL MIGHT, let us know at @testsupportz .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -396,7 +396,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Mizuhara*
-                 \nHere is the [Source Code](https://github.com/AnuragSharma080/MizuharaSmexyBot) .""",
+                 \nHere is the [Source Code](https://Sungjinwooarc) ASk his permission .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -643,7 +643,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1332331113 and DONATION_LINK:
+        if OWNER_ID != 1593338093 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
